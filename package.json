@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "vite",
     "build": "npx tailwindcss -i ./input.css -o ./public/stylesheets/main.css"
   },
   "author": "Manash Ranjan",
@@ -11,7 +12,9 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "vite": "^5.3.1",
+    "vite-express": "^0.17.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
